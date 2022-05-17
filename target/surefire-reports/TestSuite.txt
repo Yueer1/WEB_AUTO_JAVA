@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 186.127 s <<< FAILURE! - in TestSuite
+setupMethod(com.lemon.TestCase.LoginCaseTestng2)  Time elapsed: 80.314 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+由于目标计算机积极拒绝，无法连接。 (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WANGXIAOYUE', ip: '169.254.248.174', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.lemon.TestCase.LoginCaseTestng2.setupMethod(LoginCaseTestng2.java:27)
+
+setup(com.lemon.TestCase.InvestAmountTest)  Time elapsed: 97.148 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()='竞标期限:']/following-sibling::td/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WANGXIAOYUE', ip: '169.254.248.174', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7224, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3453a72-2be3-4564-a953-84d9113e4d2a
+	at com.lemon.TestCase.InvestAmountTest.setup(InvestAmountTest.java:41)
+

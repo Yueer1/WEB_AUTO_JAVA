@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="186.127" tests="5" errors="0" skipped="3" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\web_auto\target\test-classes;E:\web_auto\target\classes;D:\maven\repo\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\maven\repo\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\maven\repo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\repo\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\maven\repo\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\maven\repo\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\maven\repo\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\maven\repo\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\maven\repo\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\maven\repo\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\maven\repo\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\maven\repo\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\maven\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\repo\io\qameta\allure\allure-testng\2.12.1\allure-testng-2.12.1.jar;D:\maven\repo\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;D:\maven\repo\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;D:\maven\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\maven\repo\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\maven\repo\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\maven\repo\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\maven\repo\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\maven\repo\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;D:\maven\repo\commons-io\commons-io\2.4\commons-io-2.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\JAVA\jdk\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire2954530485877302825\surefirebooter4554334064005808776.jar C:\Users\Administrator\AppData\Local\Temp\surefire2954530485877302825 2020-11-01T20-39-09_422-jvmRun1 surefire6326583104239066275tmp surefire_01883453514291256061tmp"/>
+    <property name="surefire.test.class.path" value="E:\web_auto\target\test-classes;E:\web_auto\target\classes;D:\maven\repo\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\maven\repo\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\maven\repo\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\maven\repo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\maven\repo\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\maven\repo\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\maven\repo\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\maven\repo\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\maven\repo\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\maven\repo\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\maven\repo\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\maven\repo\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\maven\repo\org\testng\testng\7.0.0\testng-7.0.0.jar;D:\maven\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven\repo\io\qameta\allure\allure-testng\2.12.1\allure-testng-2.12.1.jar;D:\maven\repo\io\qameta\allure\allure-java-commons\2.12.1\allure-java-commons-2.12.1.jar;D:\maven\repo\io\qameta\allure\allure-model\2.12.1\allure-model-2.12.1.jar;D:\maven\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\maven\repo\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\maven\repo\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\maven\repo\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\maven\repo\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\maven\repo\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;D:\maven\repo\commons-io\commons-io\2.4\commons-io-2.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="E:\web_auto\target/allure-results"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\JAVA\jdk\jre"/>
+    <property name="basedir" value="E:\web_auto"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire2954530485877302825\surefirebooter4554334064005808776.jar;D:\maven\repo/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="D:\JAVA\jdk\jre\lib\resources.jar;D:\JAVA\jdk\jre\lib\rt.jar;D:\JAVA\jdk\jre\lib\sunrsasign.jar;D:\JAVA\jdk\jre\lib\jsse.jar;D:\JAVA\jdk\jre\lib\jce.jar;D:\JAVA\jdk\jre\lib\charsets.jar;D:\JAVA\jdk\jre\lib\jfr.jar;D:\JAVA\jdk\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="D:\JAVA\jdk\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="D:\maven\repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Administrator\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="user.dir" value="E:\web_auto"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="D:\JAVA\jdk\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\JAVA\jdk\bin;D:\JAVA\jdk\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\PBB Reader\x64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;E:\APP资料\sdk\platform-tools;E:\APP资料\sdk\tools;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\maven\bin;C:\Python27;D:\maven\bin;E:\APP资料\Fiddler;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.ext.dirs" value="D:\JAVA\jdk\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setupMethod" classname="com.lemon.TestCase.LoginCaseTestng2" time="80.314">
+    <failure message="由于目标计算机积极拒绝，无法连接。 (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WANGXIAOYUE&apos;, ip: &apos;169.254.248.174&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+由于目标计算机积极拒绝，无法连接。 (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WANGXIAOYUE', ip: '169.254.248.174', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.lemon.TestCase.LoginCaseTestng2.setupMethod(LoginCaseTestng2.java:27)
+</failure>
+    <system-out><![CDATA[2020-11-01 20:39:21 INFO BaseTest:29 - ===============打开浏览器【firefox】==================
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1604234366843	geckodriver	INFO	Listening on 127.0.0.1:46414
+1604234368364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilelZFMr0"
+]]></system-err>
+  </testcase>
+  <testcase name="login_success" classname="com.lemon.TestCase.LoginCaseTestng2" time="0">
+    <skipped message="由于目标计算机积极拒绝，无法连接。 (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WANGXIAOYUE&apos;, ip: &apos;169.254.248.174&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="teardownMethod" classname="com.lemon.TestCase.LoginCaseTestng2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.lemon.TestCase.InvestAmountTest" time="97.148">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()=&apos;竞标期限:&apos;]/following-sibling::td/input (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WANGXIAOYUE&apos;, ip: &apos;169.254.248.174&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7224, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b3453a72-2be3-4564-a953-84d9113e4d2a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()='竞标期限:']/following-sibling::td/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WANGXIAOYUE', ip: '169.254.248.174', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7224, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3453a72-2be3-4564-a953-84d9113e4d2a
+	at com.lemon.TestCase.InvestAmountTest.setup(InvestAmountTest.java:41)
+</failure>
+    <system-out><![CDATA[2020-11-01 20:40:36 INFO BaseTest:29 - ===============打开浏览器【firefox】==================
+2020-11-01 20:41:37 INFO BaseTest:44 - 访问地址[http://120.78.128.25:8765/Admin/Index/login.html]
+]]></system-out>
+    <system-err><![CDATA[[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1604234443357	geckodriver	INFO	Listening on 127.0.0.1:45853
+1604234443771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilekQgoxm"
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1604234474771	Marionette	INFO	Listening on port 38508
+1604234475320	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1604234480986	Marionette	INFO	Listening on port 38431
+十一月 01, 2020 8:41:17 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+1604234504895	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1604234511654	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: http://120.78.128.25:8765/Public/admin/js/jquery-1.8.2.min.js, line 2: TypeError: c.body is null
+JavaScript error: http://120.78.128.25:8765/Public/admin/js/jquery-1.8.2.min.js, line 2: TypeError: c.body is null
+1604234520616	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+]]></system-err>
+  </testcase>
+  <testcase name="investAmountTest" classname="com.lemon.TestCase.InvestAmountTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //td[text()=&apos;竞标期限:&apos;]/following-sibling::td/input (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WANGXIAOYUE&apos;, ip: &apos;169.254.248.174&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7224, moz:profile: C:\Users\Administrator\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b3453a72-2be3-4564-a953-84d9113e4d2a"/>
+  </testcase>
+</testsuite>
